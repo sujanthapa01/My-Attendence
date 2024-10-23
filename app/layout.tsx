@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { ThemeProvider } from "@/app/components/theme-provider";
+// import { ThemeProvider } from "@/app/components/theme-provider";
 import { cn } from "@/lib/utils"; // Helper function to combine class names if needed
 
 // Define the custom fonts

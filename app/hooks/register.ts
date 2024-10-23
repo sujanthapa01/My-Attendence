@@ -9,7 +9,7 @@ interface Student {
 }
 
 // Initialize students with data from the JSON file
-export let students: Student[] = user as Student[]; // Use type assertion to ensure the correct type
+export const students: Student[] = user as Student[]; // Use type assertion to ensure the correct type
 
 export const register = (
     student_name: string,
@@ -18,7 +18,7 @@ export const register = (
     student_phone: number,
     student_address: string
 ) => {
-    let obj: Student = {
+    const obj: Student = {
         student_name,
         student_age,
         student_id,
