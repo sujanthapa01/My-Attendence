@@ -37,11 +37,11 @@ const StudentsList: React.FC<StudentsListProps> = ({ students }) => {
         student.student_id === updatedStudent.student_id ? updatedStudent : student
       )
     );
-    setSelectedStudent(null); // Close the edit form
+    setSelectedStudent(null); 
   };
 
   const handleCancel = () => {
-    setSelectedStudent(null); // Close the edit form
+    setSelectedStudent(null); 
   };
 
   return (
