@@ -12,7 +12,7 @@ function Search() {
   const { searchTerm, setSearchTerm, filtered_students } = useStudentProfile();
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+    <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg min-h-[100vh]">
       <h1 className="text-2xl font-bold text-center text-gray-800 dark:text-gray-200 mb-4">
         Student Profiles
       </h1>

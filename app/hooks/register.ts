@@ -1,6 +1,6 @@
-import user from "@/app/user.json";
+// import user from "@/app/user.json";
 
-interface Student {
+export interface Student {
     student_name: string;
     student_age: string;
     student_id: number;
@@ -9,7 +9,7 @@ interface Student {
 }
 
 // Initialize students with data from the JSON file
-export const students: Student[] = user as Student[]; // Use type assertion to ensure the correct type
+export const students= []; // Use type assertion to ensure the correct type
 
 export const register = (
     student_name: string,
